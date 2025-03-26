@@ -70,35 +70,7 @@ o
 Fine-tunes the DeepSeek model for improved classification accuracy.
 o
 Saves the trained model (fine_tuned_model/) for inference.
-2. File Structure
-GenAIEmailClassification/
-│-- data/ # Folder containing sample email data (.eml, .msg) and attachments
-│ ├── sample1.eml
-│ ├── sample2.msg
-│ ├── attachments/
-│ ├── invoice1.pdf
-│ ├── receipt2.png
-│
-│-- scripts/ # Folder for core scripts
-│ ├── model.py # Model definition & loading
-│ ├── finetune.py # Script for fine-tuning the model
-│ ├── api.py # FastAPI implementation for classification & OCR
-│ ├── utils.py # Helper functions for email processing
-│ ├── deepseek_email_classification.py # Classification logic (renamed)
-│ ├── extract_key_details.py # OCR & data extraction logic
-│
-│-- trained_model/ # Folder containing the trained model
-│ ├── config.json
-│ ├── pytorch_model.bin
-│ ├── tokenizer.json
-│
-│-- test/ # Folder for testing scripts & results
-│ ├── test_samples/ # Sample emails for testing
-│ ├── test_results.csv # Output file with classification results
-│
-│-- requirements.txt # Dependencies for installation
-│-- README.md # Documentation
-│-- Deepseek Test Steps.docx # Test steps document
+
 3. File Descriptions
 •
 data/: Contains sample .eml and .msg emails with attachments for testing.
