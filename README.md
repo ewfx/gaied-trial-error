@@ -13,30 +13,20 @@ User provides .eml or .msg files as input.
 •
 Trained model is available for classification.
 Workflow:
-1.
-User uploads an email file via API or dashboard.
-2.
-Email text extraction is performed.
-3.
-Classification model predicts request type & sub-type.
-4.
-Key details (amount, date, deal name) are extracted.
-5.
-Results are stored and displayed in the dashboard.
-6.
-User exports results if needed.
+1.User uploads an email file via API or dashboard.
+2.Email text extraction is performed.
+3.Classification model predicts request type & sub-type.
+4.Key details (amount, date, deal name) are extracted.
+5.Results are stored and displayed in the dashboard.
+6.User exports results if needed.
 Postconditions:
-•
-Email is classified accurately.
-•
-Extracted details are saved in the database.
-•
-User gets structured insights for further processing.
+•Email is classified accurately.
+•Extracted details are saved in the database.
+•User gets structured insights for further processing.
+
 Architecture diagram
 Components:
-1.
-User Interface (API & Dashboard)
-o
+1.User Interface (API & Dashboard)
 A FastAPI-based API that accepts .eml and .msg email files.
 o
 A Blazor-based dashboard for viewing classification results.
