@@ -1,0 +1,88 @@
+[
+    {
+      "request_type": "Adjustment",
+      "sub_request_type": "Account Reconciliation",
+      "email_text": "We need to reconcile the account balance for the last quarter. Please provide the latest statement.",
+      "key_info": {"amount": null, "date": "Last Quarter", "deal_name": null}
+    },
+    {
+      "request_type": "Adjustment",
+      "sub_request_type": "Transaction Correction",
+      "email_text": "There was an error in processing the transaction on March 5th. Please correct it.",
+      "key_info": {"amount": null, "date": "March 5th", "deal_name": null}
+    },
+    {
+      "request_type": "AU Transfer",
+      "sub_request_type": "Internal Transfer",
+      "email_text": "Please transfer funds from our savings account to the checking account.",
+      "key_info": {"amount": "Unknown", "date": "Today", "deal_name": null}
+    },
+    {
+      "request_type": "AU Transfer",
+      "sub_request_type": "External Transfer",
+      "email_text": "We need to transfer assets to an external bank. Please initiate the process.",
+      "key_info": {"amount": "Unknown", "date": "ASAP", "deal_name": null}
+    },
+    {
+      "request_type": "Closing Notice",
+      "sub_request_type": "Account Closure",
+      "email_text": "We are closing account 123456. Please confirm the final balance.",
+      "key_info": {"amount": null, "date": "Today", "deal_name": "Account 123456"}
+    },
+    {
+      "request_type": "Closing Notice",
+      "sub_request_type": "Final Settlement",
+      "email_text": "Please process the final settlement for the closed loan.",
+      "key_info": {"amount": "Final Settlement Amount", "date": "ASAP", "deal_name": "Closed Loan"}
+    },
+    {
+      "request_type": "Commitment Change",
+      "sub_request_type": "Credit Line Adjustment",
+      "email_text": "We request an increase in our credit line limit. Kindly review the request.",
+      "key_info": {"amount": "Increase Amount", "date": "Requested Date", "deal_name": null}
+    },
+    {
+      "request_type": "Commitment Change",
+      "sub_request_type": "Loan Modification",
+      "email_text": "We need to modify the terms of our existing loan agreement.",
+      "key_info": {"amount": "Loan Amount", "date": "Modification Date", "deal_name": "Existing Loan"}
+    },
+    {
+      "request_type": "Fee Payment",
+      "sub_request_type": "Invoice Payment",
+      "email_text": "Please process the attached invoice for payment.",
+      "key_info": {"amount": "Invoice Amount", "date": "Invoice Date", "deal_name": null}
+    },
+    {
+      "request_type": "Fee Payment",
+      "sub_request_type": "Penalty Fees",
+      "email_text": "We need to settle the penalty fees incurred last month.",
+      "key_info": {"amount": "Penalty Fee Amount", "date": "Last Month", "deal_name": null}
+    },
+    {
+      "request_type": "Money Movement Inbound",
+      "sub_request_type": "Customer Deposits",
+      "email_text": "A customer has deposited funds into their account. Please confirm receipt.",
+      "key_info": {"amount": "Deposit Amount", "date": "Deposit Date", "deal_name": null}
+    },
+    {
+      "request_type": "Money Movement Inbound",
+      "sub_request_type": "Wire Transfers Received",
+      "email_text": "Confirm the wire transfer received from XYZ Bank.",
+      "key_info": {"amount": "Wire Transfer Amount", "date": "Transfer Date", "deal_name": "XYZ Bank"}
+    },
+    {
+      "request_type": "Money Movement Outbound",
+      "sub_request_type": "Vendor Payments",
+      "email_text": "Please process the payment to our vendor as per the attached invoice.",
+      "key_info": {"amount": "Invoice Amount", "date": "Invoice Date", "deal_name": "Vendor Name"}
+    },
+    {
+      "request_type": "Money Movement Outbound",
+      "sub_request_type": "Customer Withdrawals",
+      "email_text": "A customer has requested a withdrawal of funds. Please process it.",
+      "key_info": {"amount": "Withdrawal Amount", "date": "Requested Date", "deal_name": null}
+    }
+  ]
+  
+  
